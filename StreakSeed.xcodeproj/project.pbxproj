@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A3B5E99BCF749C7D882F35 /* SharedModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FE829D76D1685785EA3EF /* SharedModelContainer.swift */; };
+		066B65F4A3B598ABD08E0BF1 /* ProFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD02D9F15F253E7C3F049D2 /* ProFeature.swift */; };
+		06A10F36210D146AE5DB12AC /* StreakSeedHomeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C205F0A8A03ED8AC1E4653 /* StreakSeedHomeWidget.swift */; };
+		0E384EE30F43F1B6902D75C8 /* HabitLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439328A45F5137A018DA69BE /* HabitLog.swift */; };
+		0EFE80DFEA537B2964D42C94 /* ProFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD02D9F15F253E7C3F049D2 /* ProFeature.swift */; };
+		182892638C71B87A65B1BDBE /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C980BDDD28F9D47CBDD62CA /* Date+Extensions.swift */; };
+		1D42340DDB306D5BDC2EBE9C /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A6952BB459FDE828B0A9DA /* OnboardingViewModel.swift */; };
+		1F297DC86D6905120A21EDCB /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769FEC09B28E648E9AA820A3 /* Habit.swift */; };
+		279FEA91C770A36B22C46460 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26231679FBCF2C53FCBE7C5 /* WelcomeView.swift */; };
+		2AA216EF7BE95B177FF782BC /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D5FB3E80327D0BF020E31 /* OnboardingFlowView.swift */; };
+		2DA53536A364CE2443EEB138 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377371A3AE8F1834CE90E19 /* Color+Theme.swift */; };
+		2DACA586F6105A91A426824F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA68629EE2D803EE045A57 /* StatsView.swift */; };
+		31B392661C90B5EF0E27525F /* StreakService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A212BC288251ECDE8DD3C89 /* StreakService.swift */; };
+		38B17820BFEA98DDE46C140B /* StreakBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E95E7A10994E72662B5DC /* StreakBadgeView.swift */; };
+		3E6B3B16BC65472ED955F2CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B73995A6B7F326D366A48 /* Constants.swift */; };
+		41515793CC007FAE052CD24D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18B9F3603E5A4386912627 /* SettingsView.swift */; };
+		42CCDC61954F61E6C6A74D1C /* SharedModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FE829D76D1685785EA3EF /* SharedModelContainer.swift */; };
+		4806A6962405CD7D09BC72D0 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C980BDDD28F9D47CBDD62CA /* Date+Extensions.swift */; };
+		4AC184AE47CCE195D36E4F24 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AEF57430DDABD8C1AF7B0DA3 /* Localizable.xcstrings */; };
+		4FE227225D9C871E3D8C760F /* StreakService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A212BC288251ECDE8DD3C89 /* StreakService.swift */; };
+		5479B8F7745450ACA9F10951 /* AddEmojiSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11D869067F08E4BB86228E6 /* AddEmojiSheet.swift */; };
+		5837744875F7DB1AB1748C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0893E0F533ACE41074DCE568 /* Assets.xcassets */; };
+		5DE3E3A2147BA6E789F92735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AFE4C1D9A7F8420E6F5A54 /* ContentView.swift */; };
+		60DA3CE584EFCA976C55F1D8 /* GardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18BB73CD1A948396B3D56 /* GardenView.swift */; };
+		615D382AACA6A092F7FA6295 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089215CB051EA68961EE5F8E /* SettingsViewModel.swift */; };
+		6C9ADBE06393F89747617EE3 /* HeroCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5131A8588DE624D99D5D3FB /* HeroCardView.swift */; };
+		70343CDE832CD539D0D11F99 /* CustomEmojiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1755BFFD683109AB86F9697 /* CustomEmojiService.swift */; };
+		70A886770A4C8D2EB9582729 /* StoreKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E587F278E3BDE16CD9DD2FF1 /* StoreKitService.swift */; };
+		75B70A24624F96D6396BB9BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B73995A6B7F326D366A48 /* Constants.swift */; };
+		78005C0DE67182DA1554B4F6 /* WidgetDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5C7F05D8259E2C6236F8F /* WidgetDataProvider.swift */; };
+		7BD5353E06A286F4FA8DE89A /* StreakServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53607179624FDE0D958AC2 /* StreakServiceTests.swift */; };
+		8765F46AABA8B1999C06B991 /* StreakSeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90481872871CAA2082AB3D69 /* StreakSeedApp.swift */; };
+		8F0302A3A8075211B1CC09BE /* StreakSeedLockScreenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6272BBD7E798C607D162434A /* StreakSeedLockScreenWidget.swift */; };
+		99B06B98FA46D94DE481D27F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61AA7AA4889F978574475C7 /* HomeViewModel.swift */; };
+		9A6374E5881E5388CE663A76 /* WeekStripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302B36631F287E486866409 /* WeekStripView.swift */; };
+		9A8DBA13FC1FFA3161A13402 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05864863CAF16458C9E1E154 /* CalendarView.swift */; };
+		9EA641306DE4847680CA602B /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769FEC09B28E648E9AA820A3 /* Habit.swift */; };
+		A4163A551A8183ED93F9DF63 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6AB7927A3CBA4F2464EBE2 /* PaywallView.swift */; };
+		AA8B180E4A9262832E9092DA /* SeedAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AFE67371A1471F38617C51 /* SeedAnimationView.swift */; };
+		CA9923BA6FB22437914143D6 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377371A3AE8F1834CE90E19 /* Color+Theme.swift */; };
+		CAFC9183C1568657F3C372A4 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CA7EB76CEF67D9EF82735 /* NotificationService.swift */; };
+		D12BAA813E8D642E9D792E8E /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78ABFC274CCF809BF1A3FAB /* StatsViewModel.swift */; };
+		D3008BF8C4697552B8D19719 /* ReminderSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834CEBE4188F5D78E480CCF /* ReminderSetupView.swift */; };
+		D7E5A24A731344543FB0A48F /* StreakSeedWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 352D1896FF8B005E8A14F0D2 /* StreakSeedWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F23342CC71291374AAF81326 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC16245C2151CC7307CD1B7 /* HomeView.swift */; };
+		F5F620BB14AAE35257E4C063 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1B27BE25C33613971ECB0BDC /* Localizable.xcstrings */; };
+		F876174CEE26BFB6AA3821B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35557C0AA2F64DF9E8588FCC /* Assets.xcassets */; };
+		F9A89A205E9E1F3C356999B0 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B0E4F755E15B21DC17B5F /* View+Extensions.swift */; };
+		F9C359976F848B179D944085 /* StreakSeedWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990309F2D5CBE59AD841D1B /* StreakSeedWidgetBundle.swift */; };
+		FB90C997EC56EAD67F19DC9A /* HabitLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439328A45F5137A018DA69BE /* HabitLog.swift */; };
+		FFC837D523EAC0E9F5498591 /* HabitSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30050E248CA2C0CA471520A7 /* HabitSetupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8D3F18C717C33D80109A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE057BD8CDD7D302FEEC863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69B7B1792592405159D9FF4;
+			remoteInfo = StreakSeedWidgetExtension;
+		};
+		49A4C0F906B2D5BA9FB2FE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE057BD8CDD7D302FEEC863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42D8BA24B4CDE3038C7B899;
+			remoteInfo = StreakSeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E99077F2390D5EBE11C57C1C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7E5A24A731344543FB0A48F /* StreakSeedWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05864863CAF16458C9E1E154 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		089215CB051EA68961EE5F8E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		0893E0F533ACE41074DCE568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CD02D9F15F253E7C3F049D2 /* ProFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProFeature.swift; sourceTree = "<group>"; };
+		1302B36631F287E486866409 /* WeekStripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStripView.swift; sourceTree = "<group>"; };
+		14F5C7F05D8259E2C6236F8F /* WidgetDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataProvider.swift; sourceTree = "<group>"; };
+		1B27BE25C33613971ECB0BDC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		22AFE67371A1471F38617C51 /* SeedAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedAnimationView.swift; sourceTree = "<group>"; };
+		30050E248CA2C0CA471520A7 /* HabitSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitSetupView.swift; sourceTree = "<group>"; };
+		352D1896FF8B005E8A14F0D2 /* StreakSeedWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = StreakSeedWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		35557C0AA2F64DF9E8588FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		439328A45F5137A018DA69BE /* HabitLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLog.swift; sourceTree = "<group>"; };
+		448E95E7A10994E72662B5DC /* StreakBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakBadgeView.swift; sourceTree = "<group>"; };
+		47AFE4C1D9A7F8420E6F5A54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C18B9F3603E5A4386912627 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		51745861917D282E108E955C /* StreakSeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreakSeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5712F067CD92BD97FC80723F /* StreakSeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StreakSeed.entitlements; sourceTree = "<group>"; };
+		5834CEBE4188F5D78E480CCF /* ReminderSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSetupView.swift; sourceTree = "<group>"; };
+		5C01D7C9FB83826AA05392AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DC16245C2151CC7307CD1B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6272BBD7E798C607D162434A /* StreakSeedLockScreenWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakSeedLockScreenWidget.swift; sourceTree = "<group>"; };
+		67927BC2AAB9C0CB4E78446A /* StreakSeedWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StreakSeedWidget.entitlements; sourceTree = "<group>"; };
+		6B6AB7927A3CBA4F2464EBE2 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		6E5FE829D76D1685785EA3EF /* SharedModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedModelContainer.swift; sourceTree = "<group>"; };
+		725B73995A6B7F326D366A48 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		769FEC09B28E648E9AA820A3 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		7A212BC288251ECDE8DD3C89 /* StreakService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakService.swift; sourceTree = "<group>"; };
+		7C980BDDD28F9D47CBDD62CA /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		7F0B0E4F755E15B21DC17B5F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		90481872871CAA2082AB3D69 /* StreakSeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakSeedApp.swift; sourceTree = "<group>"; };
+		A990309F2D5CBE59AD841D1B /* StreakSeedWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakSeedWidgetBundle.swift; sourceTree = "<group>"; };
+		AEF57430DDABD8C1AF7B0DA3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B0A6952BB459FDE828B0A9DA /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		B11D869067F08E4BB86228E6 /* AddEmojiSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmojiSheet.swift; sourceTree = "<group>"; };
+		B377371A3AE8F1834CE90E19 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		B66CA7EB76CEF67D9EF82735 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		BD3D5FB3E80327D0BF020E31 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		BDDA68629EE2D803EE045A57 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		C61AA7AA4889F978574475C7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D1755BFFD683109AB86F9697 /* CustomEmojiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmojiService.swift; sourceTree = "<group>"; };
+		D3EBAF912E5B48563CA1F93B /* StreakSeedTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StreakSeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C205F0A8A03ED8AC1E4653 /* StreakSeedHomeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakSeedHomeWidget.swift; sourceTree = "<group>"; };
+		D65674DD26096E7E0F27DDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D8B18BB73CD1A948396B3D56 /* GardenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenView.swift; sourceTree = "<group>"; };
+		DC53607179624FDE0D958AC2 /* StreakServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakServiceTests.swift; sourceTree = "<group>"; };
+		E26231679FBCF2C53FCBE7C5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		E5131A8588DE624D99D5D3FB /* HeroCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardView.swift; sourceTree = "<group>"; };
+		E587F278E3BDE16CD9DD2FF1 /* StoreKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitService.swift; sourceTree = "<group>"; };
+		E78ABFC274CCF809BF1A3FAB /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13FE306FDE554363A00B2507 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F0B0E4F755E15B21DC17B5F /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		290659B648D392947BEAE56D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B377371A3AE8F1834CE90E19 /* Color+Theme.swift */,
+				725B73995A6B7F326D366A48 /* Constants.swift */,
+				7C980BDDD28F9D47CBDD62CA /* Date+Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2B035DEFCD6B66A32D98AE65 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				30050E248CA2C0CA471520A7 /* HabitSetupView.swift */,
+				BD3D5FB3E80327D0BF020E31 /* OnboardingFlowView.swift */,
+				5834CEBE4188F5D78E480CCF /* ReminderSetupView.swift */,
+				E26231679FBCF2C53FCBE7C5 /* WelcomeView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3AA4CD948C921E2D3218C0E0 /* StreakSeedWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0893E0F533ACE41074DCE568 /* Assets.xcassets */,
+				5C01D7C9FB83826AA05392AC /* Info.plist */,
+				AEF57430DDABD8C1AF7B0DA3 /* Localizable.xcstrings */,
+				D4C205F0A8A03ED8AC1E4653 /* StreakSeedHomeWidget.swift */,
+				6272BBD7E798C607D162434A /* StreakSeedLockScreenWidget.swift */,
+				67927BC2AAB9C0CB4E78446A /* StreakSeedWidget.entitlements */,
+				A990309F2D5CBE59AD841D1B /* StreakSeedWidgetBundle.swift */,
+				14F5C7F05D8259E2C6236F8F /* WidgetDataProvider.swift */,
+			);
+			path = StreakSeedWidget;
+			sourceTree = "<group>";
+		};
+		3BE96A20B05CF3DCA4A0FACD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4C18B9F3603E5A4386912627 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4111D2E07E00CEEBDFFE2031 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D1755BFFD683109AB86F9697 /* CustomEmojiService.swift */,
+				B66CA7EB76CEF67D9EF82735 /* NotificationService.swift */,
+				6E5FE829D76D1685785EA3EF /* SharedModelContainer.swift */,
+				E587F278E3BDE16CD9DD2FF1 /* StoreKitService.swift */,
+				7A212BC288251ECDE8DD3C89 /* StreakService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6239698099FA4F7C88C74A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51745861917D282E108E955C /* StreakSeed.app */,
+				D3EBAF912E5B48563CA1F93B /* StreakSeedTests.xctest */,
+				352D1896FF8B005E8A14F0D2 /* StreakSeedWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76CD654A18C6836C403E4C55 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C61AA7AA4889F978574475C7 /* HomeViewModel.swift */,
+				B0A6952BB459FDE828B0A9DA /* OnboardingViewModel.swift */,
+				089215CB051EA68961EE5F8E /* SettingsViewModel.swift */,
+				E78ABFC274CCF809BF1A3FAB /* StatsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7B5C8B3FFF74EF5AC7EE8BC7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				05864863CAF16458C9E1E154 /* CalendarView.swift */,
+				E5131A8588DE624D99D5D3FB /* HeroCardView.swift */,
+				5DC16245C2151CC7307CD1B7 /* HomeView.swift */,
+				448E95E7A10994E72662B5DC /* StreakBadgeView.swift */,
+				1302B36631F287E486866409 /* WeekStripView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8DF1ADD1EE09C615745671D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3FBFD2D2A0FDD8813CDB6D8 /* Garden */,
+				7B5C8B3FFF74EF5AC7EE8BC7 /* Home */,
+				2B035DEFCD6B66A32D98AE65 /* Onboarding */,
+				FB57EED5FA9DA3CE465D10B4 /* Paywall */,
+				3BE96A20B05CF3DCA4A0FACD /* Settings */,
+				9A62B42C41E60B60FC4153EC /* Shared */,
+				BE404FDDE75765E2528F925C /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A62B42C41E60B60FC4153EC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B11D869067F08E4BB86228E6 /* AddEmojiSheet.swift */,
+				22AFE67371A1471F38617C51 /* SeedAnimationView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A20CCCEBF8235709895C3949 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				769FEC09B28E648E9AA820A3 /* Habit.swift */,
+				439328A45F5137A018DA69BE /* HabitLog.swift */,
+				0CD02D9F15F253E7C3F049D2 /* ProFeature.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE404FDDE75765E2528F925C /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA68629EE2D803EE045A57 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		C3FBFD2D2A0FDD8813CDB6D8 /* Garden */ = {
+			isa = PBXGroup;
+			children = (
+				D8B18BB73CD1A948396B3D56 /* GardenView.swift */,
+			);
+			path = Garden;
+			sourceTree = "<group>";
+		};
+		C4BAEFD4F5D95FE6405D7F04 /* StreakSeed */ = {
+			isa = PBXGroup;
+			children = (
+				35557C0AA2F64DF9E8588FCC /* Assets.xcassets */,
+				47AFE4C1D9A7F8420E6F5A54 /* ContentView.swift */,
+				D65674DD26096E7E0F27DDAC /* Info.plist */,
+				1B27BE25C33613971ECB0BDC /* Localizable.xcstrings */,
+				5712F067CD92BD97FC80723F /* StreakSeed.entitlements */,
+				90481872871CAA2082AB3D69 /* StreakSeedApp.swift */,
+				13FE306FDE554363A00B2507 /* Extensions */,
+				A20CCCEBF8235709895C3949 /* Models */,
+				4111D2E07E00CEEBDFFE2031 /* Services */,
+				290659B648D392947BEAE56D /* Utilities */,
+				76CD654A18C6836C403E4C55 /* ViewModels */,
+				8DF1ADD1EE09C615745671D1 /* Views */,
+			);
+			path = StreakSeed;
+			sourceTree = "<group>";
+		};
+		C818EE1E4809E47A135CCCAF /* StreakSeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC53607179624FDE0D958AC2 /* StreakServiceTests.swift */,
+			);
+			path = StreakSeedTests;
+			sourceTree = "<group>";
+		};
+		F99C6F9A76FE84BD3372DB36 = {
+			isa = PBXGroup;
+			children = (
+				C4BAEFD4F5D95FE6405D7F04 /* StreakSeed */,
+				C818EE1E4809E47A135CCCAF /* StreakSeedTests */,
+				3AA4CD948C921E2D3218C0E0 /* StreakSeedWidget */,
+				6239698099FA4F7C88C74A4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB57EED5FA9DA3CE465D10B4 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				6B6AB7927A3CBA4F2464EBE2 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9364203092A609348FC3F68D /* StreakSeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50A0EE4A6DE0E695BF5A964 /* Build configuration list for PBXNativeTarget "StreakSeedTests" */;
+			buildPhases = (
+				016EEEBF76A6860CB8C889B4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1694CB33A0607F35EDC0441A /* PBXTargetDependency */,
+			);
+			name = StreakSeedTests;
+			packageProductDependencies = (
+			);
+			productName = StreakSeedTests;
+			productReference = D3EBAF912E5B48563CA1F93B /* StreakSeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B42D8BA24B4CDE3038C7B899 /* StreakSeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0819A73A630EF133D2AA09 /* Build configuration list for PBXNativeTarget "StreakSeed" */;
+			buildPhases = (
+				A89BCFBA1FAB2B11479EC1E8 /* Sources */,
+				503CB1B463BBD7BB382E9A83 /* Resources */,
+				E99077F2390D5EBE11C57C1C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0C8A7788D0C482E96A8A52D /* PBXTargetDependency */,
+			);
+			name = StreakSeed;
+			packageProductDependencies = (
+			);
+			productName = StreakSeed;
+			productReference = 51745861917D282E108E955C /* StreakSeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69B7B1792592405159D9FF4 /* StreakSeedWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBC2A08A1F8C7178AEBC233 /* Build configuration list for PBXNativeTarget "StreakSeedWidgetExtension" */;
+			buildPhases = (
+				D080D97374BC600F536E626F /* Sources */,
+				458E918191CAF9F33E83948E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreakSeedWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = StreakSeedWidgetExtension;
+			productReference = 352D1896FF8B005E8A14F0D2 /* StreakSeedWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE057BD8CDD7D302FEEC863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9364203092A609348FC3F68D = {
+						DevelopmentTeam = BS8Z8R2WBY;
+					};
+					B42D8BA24B4CDE3038C7B899 = {
+						DevelopmentTeam = BS8Z8R2WBY;
+						ProvisioningStyle = Automatic;
+					};
+					D69B7B1792592405159D9FF4 = {
+						DevelopmentTeam = BS8Z8R2WBY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5957ED44B645BAD6D2DC6048 /* Build configuration list for PBXProject "StreakSeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+				en,
+				es,
+				fr,
+				ja,
+				ko,
+				"pt-BR",
+				"zh-Hans",
+			);
+			mainGroup = F99C6F9A76FE84BD3372DB36;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42D8BA24B4CDE3038C7B899 /* StreakSeed */,
+				9364203092A609348FC3F68D /* StreakSeedTests */,
+				D69B7B1792592405159D9FF4 /* StreakSeedWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458E918191CAF9F33E83948E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5837744875F7DB1AB1748C9F /* Assets.xcassets in Resources */,
+				4AC184AE47CCE195D36E4F24 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503CB1B463BBD7BB382E9A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F876174CEE26BFB6AA3821B6 /* Assets.xcassets in Resources */,
+				F5F620BB14AAE35257E4C063 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016EEEBF76A6860CB8C889B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD5353E06A286F4FA8DE89A /* StreakServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89BCFBA1FAB2B11479EC1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5479B8F7745450ACA9F10951 /* AddEmojiSheet.swift in Sources */,
+				9A8DBA13FC1FFA3161A13402 /* CalendarView.swift in Sources */,
+				2DA53536A364CE2443EEB138 /* Color+Theme.swift in Sources */,
+				75B70A24624F96D6396BB9BE /* Constants.swift in Sources */,
+				5DE3E3A2147BA6E789F92735 /* ContentView.swift in Sources */,
+				70343CDE832CD539D0D11F99 /* CustomEmojiService.swift in Sources */,
+				182892638C71B87A65B1BDBE /* Date+Extensions.swift in Sources */,
+				60DA3CE584EFCA976C55F1D8 /* GardenView.swift in Sources */,
+				9EA641306DE4847680CA602B /* Habit.swift in Sources */,
+				FB90C997EC56EAD67F19DC9A /* HabitLog.swift in Sources */,
+				FFC837D523EAC0E9F5498591 /* HabitSetupView.swift in Sources */,
+				6C9ADBE06393F89747617EE3 /* HeroCardView.swift in Sources */,
+				F23342CC71291374AAF81326 /* HomeView.swift in Sources */,
+				99B06B98FA46D94DE481D27F /* HomeViewModel.swift in Sources */,
+				CAFC9183C1568657F3C372A4 /* NotificationService.swift in Sources */,
+				2AA216EF7BE95B177FF782BC /* OnboardingFlowView.swift in Sources */,
+				1D42340DDB306D5BDC2EBE9C /* OnboardingViewModel.swift in Sources */,
+				A4163A551A8183ED93F9DF63 /* PaywallView.swift in Sources */,
+				0EFE80DFEA537B2964D42C94 /* ProFeature.swift in Sources */,
+				D3008BF8C4697552B8D19719 /* ReminderSetupView.swift in Sources */,
+				AA8B180E4A9262832E9092DA /* SeedAnimationView.swift in Sources */,
+				41515793CC007FAE052CD24D /* SettingsView.swift in Sources */,
+				615D382AACA6A092F7FA6295 /* SettingsViewModel.swift in Sources */,
+				01A3B5E99BCF749C7D882F35 /* SharedModelContainer.swift in Sources */,
+				2DACA586F6105A91A426824F /* StatsView.swift in Sources */,
+				D12BAA813E8D642E9D792E8E /* StatsViewModel.swift in Sources */,
+				70A886770A4C8D2EB9582729 /* StoreKitService.swift in Sources */,
+				38B17820BFEA98DDE46C140B /* StreakBadgeView.swift in Sources */,
+				8765F46AABA8B1999C06B991 /* StreakSeedApp.swift in Sources */,
+				4FE227225D9C871E3D8C760F /* StreakService.swift in Sources */,
+				F9A89A205E9E1F3C356999B0 /* View+Extensions.swift in Sources */,
+				9A6374E5881E5388CE663A76 /* WeekStripView.swift in Sources */,
+				279FEA91C770A36B22C46460 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D080D97374BC600F536E626F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9923BA6FB22437914143D6 /* Color+Theme.swift in Sources */,
+				3E6B3B16BC65472ED955F2CF /* Constants.swift in Sources */,
+				4806A6962405CD7D09BC72D0 /* Date+Extensions.swift in Sources */,
+				1F297DC86D6905120A21EDCB /* Habit.swift in Sources */,
+				0E384EE30F43F1B6902D75C8 /* HabitLog.swift in Sources */,
+				066B65F4A3B598ABD08E0BF1 /* ProFeature.swift in Sources */,
+				42CCDC61954F61E6C6A74D1C /* SharedModelContainer.swift in Sources */,
+				06A10F36210D146AE5DB12AC /* StreakSeedHomeWidget.swift in Sources */,
+				8F0302A3A8075211B1CC09BE /* StreakSeedLockScreenWidget.swift in Sources */,
+				F9C359976F848B179D944085 /* StreakSeedWidgetBundle.swift in Sources */,
+				31B392661C90B5EF0E27525F /* StreakService.swift in Sources */,
+				78005C0DE67182DA1554B4F6 /* WidgetDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1694CB33A0607F35EDC0441A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42D8BA24B4CDE3038C7B899 /* StreakSeed */;
+			targetProxy = 49A4C0F906B2D5BA9FB2FE97 /* PBXContainerItemProxy */;
+		};
+		B0C8A7788D0C482E96A8A52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69B7B1792592405159D9FF4 /* StreakSeedWidgetExtension */;
+			targetProxy = 2B8D3F18C717C33D80109A9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2180D0BCDC34CEAEE67D8A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.streakseed.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreakSeed.app/StreakSeed";
+			};
+			name = Release;
+		};
+		409FFDF0922D059088BD26C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StreakSeedWidget/StreakSeedWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StreakSeedWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.streakseed.app.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4859D121E3CA3D178DE6FB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StreakSeed/StreakSeed.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StreakSeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.streakseed.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		634344EF6AD317AD9D679150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StreakSeed/StreakSeed.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StreakSeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.streakseed.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F8722087E34A9B75C6A4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BS8Z8R2WBY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StreakSeed;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B3CD53318C5A3E78333F9CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.streakseed.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreakSeed.app/StreakSeed";
+			};
+			name = Debug;
+		};
+		CB61456C283ACE69A67D5709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BS8Z8R2WBY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StreakSeed;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		D3CBDB4572B1BA892C0F34F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StreakSeedWidget/StreakSeedWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = StreakSeedWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.streakseed.app.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0819A73A630EF133D2AA09 /* Build configuration list for PBXNativeTarget "StreakSeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634344EF6AD317AD9D679150 /* Debug */,
+				4859D121E3CA3D178DE6FB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5957ED44B645BAD6D2DC6048 /* Build configuration list for PBXProject "StreakSeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F8722087E34A9B75C6A4BC /* Debug */,
+				CB61456C283ACE69A67D5709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CBC2A08A1F8C7178AEBC233 /* Build configuration list for PBXNativeTarget "StreakSeedWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409FFDF0922D059088BD26C4 /* Debug */,
+				D3CBDB4572B1BA892C0F34F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D50A0EE4A6DE0E695BF5A964 /* Build configuration list for PBXNativeTarget "StreakSeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CD53318C5A3E78333F9CE2 /* Debug */,
+				2180D0BCDC34CEAEE67D8A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AE057BD8CDD7D302FEEC863 /* Project object */;
+}

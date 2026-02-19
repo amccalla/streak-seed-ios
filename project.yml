@@ -1,0 +1,120 @@
+name: StreakSeed
+options:
+  bundleIdPrefix: com.streakseed
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.2"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: 1
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: StreakSeed
+    INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.lifestyle"
+    DEVELOPMENT_TEAM: BS8Z8R2WBY
+
+targets:
+  StreakSeed:
+    type: application
+    platform: iOS
+    sources:
+      - StreakSeed
+    info:
+      path: StreakSeed/Info.plist
+      properties:
+        CFBundleDisplayName: StreakSeed
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        LSApplicationCategoryType: public.app-category.lifestyle
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+          UIImageName: LaunchImage
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    entitlements:
+      path: StreakSeed/StreakSeed.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.streakseed.shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.streakseed.app
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_EMIT_LOC_STRINGS: YES
+        ENABLE_PREVIEWS: YES
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - target: StreakSeedWidgetExtension
+        embed: true
+
+  StreakSeedWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - StreakSeedWidget
+      - path: StreakSeed/Models
+      - path: StreakSeed/Services/StreakService.swift
+      - path: StreakSeed/Services/SharedModelContainer.swift
+      - path: StreakSeed/Utilities/Constants.swift
+      - path: StreakSeed/Utilities/Date+Extensions.swift
+      - path: StreakSeed/Utilities/Color+Theme.swift
+    info:
+      path: StreakSeedWidget/Info.plist
+      properties:
+        CFBundleDisplayName: StreakSeed Widget
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: StreakSeedWidget/StreakSeedWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.streakseed.shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.streakseed.app.widget
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SKIP_INSTALL: YES
+
+  StreakSeedTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - StreakSeedTests
+    dependencies:
+      - target: StreakSeed
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.streakseed.tests
+
+schemes:
+  StreakSeed:
+    build:
+      targets:
+        StreakSeed: all
+        StreakSeedWidgetExtension: all
+    run:
+      config: Debug
+      executable: StreakSeed
+    test:
+      config: Debug
+      targets:
+        - StreakSeedTests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
